@@ -16,6 +16,7 @@ import {
   isToday,
   parseISO,
 } from "date-fns";
+import type { CalendarEvent } from "../types";
 
 export type ViewType = "month" | "week" | "day";
 
@@ -70,7 +71,7 @@ export function useCalendar(initialDate = new Date()) {
   }, [currentDate, view]);
 
   const getEventsForDay = useCallback(
-    (day: Date, events: { startDate: string; endDate: string }[]) => {
+    (day: Date, events: CalendarEvent[]) => {
       return events.filter((event) => {
         const start = parseISO(event.startDate);
         const end = parseISO(event.endDate);

@@ -1,7 +1,7 @@
 import { cn } from "../../lib/utils";
 import type { CalendarEvent } from "../../types";
 import { EventCard } from "./EventCard";
-import { format, isSameDay } from "date-fns";
+import { format } from "date-fns";
 
 interface WeekViewProps {
   days: Date[];

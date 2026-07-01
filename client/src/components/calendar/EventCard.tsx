@@ -1,4 +1,3 @@
-import { cn } from "../../lib/utils";
 import type { CalendarEvent } from "../../types";
 import { format, parseISO } from "date-fns";
 

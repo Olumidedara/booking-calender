@@ -16,8 +16,6 @@ import {
   DropdownMenuSeparator,
   DropdownMenuTrigger,
 } from "../components/ui/dropdown-menu";
-import { Switch } from "../components/ui/switch";
-import { Label } from "../components/ui/label";
 import {
   ChevronLeft,
   ChevronRight,
@@ -32,7 +30,7 @@ import {
 import { Input } from "../components/ui/input";
 import { useNavigate } from "react-router-dom";
 import type { CalendarEvent } from "../types";
-import { format, parseISO, startOfMonth, endOfMonth, startOfWeek, endOfWeek } from "date-fns";
+import { startOfMonth, endOfMonth, startOfWeek, endOfWeek } from "date-fns";
 
 export function CalendarPage() {
   const calendar = useCalendar();
