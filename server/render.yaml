@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: booking-calendar-server
+    env: node
+    plan: free
+    buildCommand: npm install && npx prisma generate && npx tsc
+    startCommand: npm start
+    envVars:
+      - key: DATABASE_URL
+        sync: false
+      - key: JWT_SECRET
+        sync: false
+      - key: CLIENT_URL
+        value: https://your-frontend.vercel.app
+      - key: NODE_ENV
+        value: production
+    healthCheckPath: /api/health
