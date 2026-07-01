@@ -55,13 +55,13 @@ export function LoginPage() {
 
           <div className="space-y-2">
             <Label htmlFor="email">Email</Label>
-            <Input id="email" type="email" {...register("email")} placeholder="demo@example.com" />
+            <Input id="email" type="email" {...register("email")} placeholder="your@mail.com" />
             {errors.email && <p className="text-sm text-destructive">{errors.email.message}</p>}
           </div>
 
           <div className="space-y-2">
             <Label htmlFor="password">Password</Label>
-            <Input id="password" type="password" {...register("password")} placeholder="password123" />
+            <Input id="password" type="password" {...register("password")} placeholder="********" />
             {errors.password && <p className="text-sm text-destructive">{errors.password.message}</p>}
           </div>
 
