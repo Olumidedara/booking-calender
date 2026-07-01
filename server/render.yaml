@@ -11,8 +11,7 @@ services:
       - key: JWT_SECRET
         sync: false
       - key: CLIENT_URL
-        value: https://your-app.vercel.app
-        # Update this to your actual Vercel URL after deploying
+        value: https://bookingcalender-rho.vercel.app
       - key: NODE_ENV
         value: production
     healthCheckPath: /api/health
