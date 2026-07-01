@@ -11,7 +11,8 @@ services:
       - key: JWT_SECRET
         sync: false
       - key: CLIENT_URL
-        value: https://your-frontend.vercel.app
+        value: https://your-app.vercel.app
+        # Update this to your actual Vercel URL after deploying
       - key: NODE_ENV
         value: production
     healthCheckPath: /api/health
