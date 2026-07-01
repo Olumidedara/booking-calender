@@ -172,21 +172,6 @@ export function LoginPage() {
                 "Sign in"
               )}
             </Button>
-
-            <div className="relative">
-              <div className="absolute inset-0 flex items-center">
-                <span className="w-full border-t" />
-              </div>
-              <div className="relative flex justify-center text-xs uppercase">
-                <span className="bg-background px-2 text-muted-foreground">Demo account</span>
-              </div>
-            </div>
-
-            <div className="rounded-lg border bg-muted/30 p-3 text-center text-sm text-muted-foreground">
-              <span className="font-medium text-foreground">demo@example.com</span>
-              <span className="mx-2">/</span>
-              <span className="font-medium text-foreground">password123</span>
-            </div>
           </form>
 
           <motion.p
