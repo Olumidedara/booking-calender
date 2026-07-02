@@ -1,6 +1,6 @@
 # 📅 Booking Calendar
 
-> A beautifully crafted, full-stack booking calendar with custom month/week/day views, real-time navigation, and dark mode — built entirely without FullCalendar.
+> A beautifully crafted, full-stack booking calendar with custom month/week/day views, real-time navigation, and dark mode; built entirely without FullCalendar.
 
 [![Vite](https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=fff)](https://vitejs.dev)
 [![React 19](https://img.shields.io/badge/React_19-087EA4?logo=react&logoColor=fff)](https://react.dev)
