@@ -67,9 +67,16 @@ export function CalendarPage() {
         end: endOfWeek(mEnd).toISOString(),
       };
     }
+    if (calendar.view === "week") {
+      return {
+        start: calendar.days[0].toISOString(),
+        end: calendar.days[calendar.days.length - 1].toISOString(),
+      };
+    }
+    const day = calendar.days[0];
     return {
-      start: calendar.days[0].toISOString(),
-      end: calendar.days[calendar.days.length - 1].toISOString(),
+      start: day.toISOString(),
+      end: new Date(day.getFullYear(), day.getMonth(), day.getDate(), 23, 59, 59, 999).toISOString(),
     };
   }, [calendar.currentDate, calendar.view, calendar.days]);
 
