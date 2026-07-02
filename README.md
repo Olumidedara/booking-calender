@@ -36,15 +36,13 @@ No FullCalendar. No shortcuts. Just intentional design.
 
 ## Screenshots
 
-> *Screenshots coming soon. In the meantime, visit the [live demo](https://bookingcalender-rho.vercel.app).*
-
-| Month View | Week View | Day View |
+| Landing Page | Month View | Week View |
 |---|---|---|
-| ![Month View](https://placehold.co/600x400/1a1a2e/e0e0e0?text=Month+View) | ![Week View](https://placehold.co/600x400/1a1a2e/e0e0e0?text=Week+View) | ![Day View](https://placehold.co/600x400/1a1a2e/e0e0e0?text=Day+View) |
+| ![Landing Page](screenshots/landing-page.png) | ![Month View](screenshots/month-view.png) | ![Week View](screenshots/week-view.png) |
 
-| Dark Mode | Event Modal | Login |
+| Day View | Dark Mode | Login Page |
 |---|---|---|
-| ![Dark Mode](https://placehold.co/600x400/1a1a2e/e0e0e0?text=Dark+Mode) | ![Event Modal](https://placehold.co/600x400/1a1a2e/e0e0e0?text=Event+Modal) | ![Login](https://placehold.co/600x400/1a1a2e/e0e0e0?text=Login) |
+| ![Day View](screenshots/day-view.png) | ![Dark Mode](screenshots/dark-mode.png) | ![Login Page](screenshots/login-page.png) |
 
 ---
 
