@@ -152,11 +152,6 @@ npm run dev          # Start dev server at http://localhost:5173
 npm run dev
 ```
 
-### Demo Credentials
-| Email | Password |
-|---|---|
-| `demo@example.com` | `password123` |
-
 ---
 
 ## Live Demo
