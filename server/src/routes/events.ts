@@ -9,8 +9,8 @@ router.get("/", async (req: AuthRequest, res: Response) => {
   const { startDate, endDate } = req.query;
   const where: any = { userId: req.userId };
   if (startDate && endDate) {
-    where.startDate = { gte: new Date(startDate as string) };
-    where.endDate = { lte: new Date(endDate as string) };
+    where.startDate = { lte: new Date(endDate as string) };
+    where.endDate = { gte: new Date(startDate as string) };
   }
   const events = await prisma.event.findMany({
     where,
