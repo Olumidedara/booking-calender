@@ -20,7 +20,7 @@
 
 ## The Story
 
-Most calendar projects reach for FullCalendar. It's the obvious choice — it works, it's battle-tested, and it saves time. But there's a catch: you inherit someone else's decisions about how things should look, feel, and behave.
+Most calendar projects reach for FullCalendar. It's the obvious choice since it works, it's battle-tested, and it saves time. But there's a catch: you inherit someone else's decisions about how things should look, feel, and behave.
 
 I wanted more.
 
@@ -28,7 +28,7 @@ I wanted a calendar that feels like a native app. Smooth view transitions with F
 
 So I built one from scratch.
 
-**Booking Calendar** is a custom calendar engine — month, week, and day views — powered by modern React, TypeScript, and a clean Express API. Every pixel, every animation, every interaction was made by hand, learned from, and refined.
+**Booking Calendar** is a custom calendar engine (has month, week, and day views) powered by modern React, TypeScript, and a clean Express API. Every pixel, every animation, every interaction was made by hand, learned from, and refined.
 
 No FullCalendar. No shortcuts. Just intentional design.
 
@@ -180,7 +180,7 @@ npm run dev
 
 ### Database (Neon)
 - Serverless PostgreSQL, free tier with 500 MB storage
-- Supports IPv4 (unlike Supabase, which is IPv6-only — important for Render connectivity)
+- Supports IPv4 (important for Render connectivity)
 
 ---
 
