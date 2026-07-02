@@ -31,7 +31,7 @@ export function DayView({
   const currentMinute = now.getMinutes();
 
   return (
-    <div className="flex flex-col flex-1 overflow-auto">
+    <div className="flex flex-col flex-1 min-h-0 overflow-auto">
       {/* Day header */}
       <div className="sticky top-0 z-20 bg-background/90 backdrop-blur-sm border-b shadow-sm">
         <div className="p-4 text-center">
@@ -66,7 +66,7 @@ export function DayView({
       )}
 
       {/* Hourly timeline */}
-      <div className="flex-1 relative px-4">
+      <div className="flex-1 min-h-0 relative px-4">
         {isSameDay(day, now) && (
           <div
             className="absolute left-4 right-4 z-20 pointer-events-none border-t-2 border-red-400"

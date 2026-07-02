@@ -371,7 +371,7 @@ export function CalendarPage() {
                 animate="animate"
                 exit="exit"
                 variants={viewVariants}
-                className="h-full"
+                className="flex flex-col min-h-0 h-full"
               >
                 {calendar.view === "month" && (
                   <MonthView

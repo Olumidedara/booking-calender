@@ -27,7 +27,7 @@ export function WeekView({
   const currentMinute = now.getMinutes();
 
   return (
-    <div className="flex flex-col flex-1 overflow-auto">
+    <div className="flex flex-col flex-1 min-h-0 overflow-auto">
       {/* Day headers */}
       <div className="grid grid-cols-[60px_repeat(7,1fr)] border-b sticky top-0 bg-background/90 backdrop-blur-sm z-30 shadow-sm">
         <div className="border-r" />
@@ -56,7 +56,7 @@ export function WeekView({
       </div>
 
       {/* Time grid */}
-      <div className="grid grid-cols-[60px_repeat(7,1fr)] flex-1 relative">
+      <div className="grid grid-cols-[60px_repeat(7,1fr)] flex-1 min-h-0 relative">
         {/* Current time line */}
         {days.some((d) => isToday(d)) && days.some((d) => isSameDay(d, now)) && (
           <div
