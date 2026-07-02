@@ -53,10 +53,10 @@ export function EventCard({ event, onClick, variant = "month", styleOverride }: 
   return (
     <button
       onClick={() => onClick(event)}
-      className="w-full text-left rounded-xl border p-3 transition-all hover:shadow-lg hover:-translate-y-0.5 active:translate-y-0 bg-card"
-      style={{ borderLeftColor: event.color, borderLeftWidth: "4px" }}
+      className="w-full text-left rounded-xl border p-3 transition-all hover:shadow-lg hover:-translate-y-0.5 active:translate-y-0 bg-card overflow-hidden"
+      style={{ borderLeftColor: event.color, borderLeftWidth: "4px", ...styleOverride }}
     >
-      <div className="font-semibold">{event.title}</div>
+      <div className="font-semibold truncate">{event.title}</div>
       <div className="text-sm text-muted-foreground mt-0.5">
         {format(start, "h:mm a")} – {format(parseISO(event.endDate), "h:mm a")}
       </div>
