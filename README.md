@@ -169,7 +169,6 @@ npm run dev
 | **Backend API** | [https://booking-calender-oyh7.onrender.com/api/health](https://booking-calender-oyh7.onrender.com/api/health) |
 | **GitHub** | [https://github.com/Olumidedara/booking-calender](https://github.com/Olumidedara/booking-calender) |
 
-> **Note:** The backend runs on Render's free tier and may take 5–10 seconds to cold-start after inactivity. Subsequent requests are fast.
 
 ---
 
