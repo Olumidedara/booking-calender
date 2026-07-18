@@ -14,7 +14,7 @@
 [![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?logo=framer&logoColor=fff)](https://www.framer.com/motion)
 
 [![Live Demo](https://img.shields.io/badge/Live_Demo-Vercel-000?logo=vercel)](https://bookingcalender-rho.vercel.app)
-[![API Health](https://img.shields.io/badge/API-Render-46E3B7?logo=render)](https://booking-calender-oyh7.onrender.com/api/health)
+[![API Health](https://img.shields.io/badge/API-Render-46E3B7?logo=render)](https://booking-calender-egeb.onrender.com/api/health)
 
 ---
 
@@ -159,7 +159,7 @@ npm run dev
 | Link | URL |
 |---|---|
 | **Frontend** | [https://bookingcalender-rho.vercel.app](https://bookingcalender-rho.vercel.app) |
-| **Backend API** | [https://booking-calender-oyh7.onrender.com/api/health](https://booking-calender-oyh7.onrender.com/api/health) |
+| **Backend API** | [https://booking-calender-egeb.onrender.com/api/health](https://booking-calender-egeb.onrender.com/api/health) |
 | **GitHub** | [https://github.com/Olumidedara/booking-calender](https://github.com/Olumidedara/booking-calender) |
 
 
